@@ -15,3 +15,9 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore these too
+.env
+.idea/runConfigurations/
+.idea/vcs.xml
+.idea/workspace.xml
