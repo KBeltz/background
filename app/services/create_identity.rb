@@ -2,6 +2,14 @@
 # A class to handle an identity creation on
 # BlockScore
 #
+# We put this in it's own file so that we can isolate a few concerns:
+#
+# * Posting data to the API
+# * Saving the corresponding relevant data to the DB
+# * Handling possible errors
+#
+# Thus we are able to isolate the interaction between a major action involving a User and BlockScore in its class.
+#
 #  creds = {name_first: "John Doe", ... }
 #  identity_params = { user: current_user, credentials: creds }
 #  CreateIdentity.call(identity_params)
