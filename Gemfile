@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # identity verification www.blockscore.com
 gem 'blockscore', '~> 4.2', '>= 4.2.1'
+gem 'devise', '~> 3.5.2'
+gem 'dotenv-rails', :groups => [:development, :test]
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
